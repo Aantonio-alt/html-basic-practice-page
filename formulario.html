@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>¿Qué escucha usted?</h2>
+
+    <form>
+        <fieldset>
+            <legend>Datos</legend>
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input type="text" id="Nombre" name="name" required placeholder="Ingresa nombre completo">
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email" required placeholder="@">
+            </div>
+            <div>
+                <label for="Telefono">Telefono</label>
+                <input type="tel" id="Telefono" name="Telefono" placeholder="Opcional" >
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tu musica favorita</legend>
+            <div>
+                <label for="Genero">Genero</label>
+                <select>
+                    <option value="Selecciona">--Selecciona un genero--</option>
+                    <option value="Electronica">Electronica</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Jazz">Jazz</option>
+                    <option value="Country">Country</option>
+                    <option value="Reggaeton">Reggaeton</option>
+                    <option value="Pop">Pop</option>
+                    <option value="Salsa">Salsa</option>
+                    <option value="Ranchera">Ranchera</option>
+                    <option value="Hip">Hip Hop/Rap</option>
+                    <option value="Punk">Punk</option>
+                    <option value="Metal">Metal</option>
+                    <option value="Disco">Disco</option>
+                    <option value="Clasica">Musica Clasica</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+            <div>
+                <label>En caso de seleccionar "Otro"</label><br>
+                <textarea placeholder="¿Cuál?"></textarea>
+            </div>
+            <div>
+                <label for="Cancion">¿Cuál es tu canción favorita?</label>
+                <input type="text" id="Cancion" name="Cancion" required>
+            </div>
+            <div>
+                <label for="URL">URL:</label>
+                <input type="url" id="URL" name="URL" placeholder="Opcional">
+            </div>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Su opinion de la musica</legend>
+            <textarea></textarea>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Enviar"> 
+       
+    </form>
+  
+    <center>
+    <a href="index.html"><button>Regresar</button></a>
+    </center>
+
+
+</body>
+</html>
